@@ -56,16 +56,6 @@ namespace AdessoAutomationTask.PageObjects
             return list;
         }
 
-        //public string GetNationalityTooltipText()
-        //{
-        //    Actions action = new Actions(Driver);
-        //    action.MoveToElement(NationalityTooltip).Perform();
-
-        //    var tooltipMessage = TooltipMessage.Text;
-
-        //    return tooltipMessage;
-        //}
-
         public bool? IsTooltipMessageCorrect(IWebElement element, string message)
         {
             Actions action = new Actions(Driver);
